@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "Gym Tracker",
+    "slug": "gym-tracker",
+    "scheme": "gymtracker",
+    "version": "0.7.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "android": {
+      "package": "com.falcodigi.gymtracker"
+    },
+    "ios": {
+      "bundleIdentifier": "com.falcodigi.gymtracker"
+    }
+  }
+}
